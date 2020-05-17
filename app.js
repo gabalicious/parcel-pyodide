@@ -44,7 +44,7 @@ app.use(function(err, req, res, next) {
 });
 
 // we will pass our 'app' to 'https' server
-if (false) {
+if (process.env.NODE_ENV === "development") {
   console.log(process.env.NODE_ENV);
   https
     .createServer(
