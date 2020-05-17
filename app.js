@@ -44,16 +44,16 @@ app.use(function(err, req, res, next) {
 });
 
 // we will pass our 'app' to 'https' server
-// if (process.env.NODE_ENV !== "production") {
-//   console.log(process.env.NODE_ENV);
-//   https
-//     .createServer(
-//       {
-//         key: fs.readFileSync(__dirname + "/localhost-key.pem"),
-//         cert: fs.readFileSync(__dirname + "/localhost.pem"),
-//       },
-//       app
-//     )
-//     .listen(443, () => console.log("Pyodide app listening on port 443!"));
-// }
+if (false) {
+  console.log(process.env.NODE_ENV);
+  https
+    .createServer(
+      {
+        key: fs.readFileSync(__dirname + "/localhost-key.pem"),
+        cert: fs.readFileSync(__dirname + "/localhost.pem"),
+      },
+      app
+    )
+    .listen(443, () => console.log("Pyodide app listening on port 443!"));
+}
 module.exports = app;
