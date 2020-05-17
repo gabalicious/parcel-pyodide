@@ -1,0 +1,39 @@
+{
+  "name": "parcel-pyodide",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodenv ./bin/www",
+    "hmr": "parcel src/index.html --cert localhost.pem --key localhost-key.pem",
+    "build": "parcel build src/index.html",
+    "cert": "certbot localhost",
+    "deploy": "npx shipit production deploy"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "buefy": "^0.8.19",
+    "cookie-parser": "^1.4.5",
+    "debug": "^2.6.9",
+    "execa": "^4.0.1",
+    "express": "^4.16.4",
+    "http-errors": "^1.6.3",
+    "jade": "^1.11.0",
+    "morgan": "^1.9.1",
+    "node-watch": "^0.6.4",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.3.1",
+    "vue": "^2.6.11",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-router": "^3.1.6",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.1.2",
+    "node-env-run": "^3.0.2",
+    "sass": "^1.26.5",
+    "shipit-cli": "^5.3.0",
+    "shipit-deploy": "^5.3.0",
+    "shipit-shared": "^4.4.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

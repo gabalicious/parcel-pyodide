@@ -1,0 +1,9 @@
+node_modules
+dist
+.cache
+localhost-key.pem
+localhost.pem
+shipitfile.js
+.vscode
+.env
+pyodide

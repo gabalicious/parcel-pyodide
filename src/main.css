@@ -1,0 +1,10 @@
+body {
+  background: #7957d5;
+  height: 100vh;
+}
+.textarea {
+  min-height: 90px !important;
+}
+.textarea.results {
+  min-height: 50px !important;
+}

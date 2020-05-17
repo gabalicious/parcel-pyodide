@@ -1,0 +1,25 @@
+{
+  "options": {
+    "https": {
+      "cert": "./0.0.0.0+1.pem",
+      "key": "./0.0.0.0+1-key.pem"
+    },
+    "outDir": "./dist",
+    "outFile": "index.html",
+    "publicUrl": "/",
+    "watch": true,
+    "cache": true,
+    "cacheDir": ".cache",
+    "contentHash": true,
+    "minify": false,
+    "scopeHoist": false,
+    "target": "browser",
+    "bundleNodeModules": false,
+    "logLevel": 3,
+    "hmr": true,
+    "hmrPort": 0,
+    "sourceMaps": true,
+    "hmrHostname": "",
+    "detailedReport": false
+  }
+}
