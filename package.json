@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodenv ./bin/www",
+    "start": "NODE_ENV=production nodenv ./bin/www",
     "start-dev": "NODE_ENV=development nodenv ./bin/www",
     "hmr": "parcel src/index.html --cert localhost.pem --key localhost-key.pem",
     "build": "parcel build src/index.html",
@@ -17,6 +17,7 @@
     "debug": "^2.6.9",
     "execa": "^4.0.1",
     "express": "^4.16.4",
+    "helmet": "^3.22.0",
     "http-errors": "^1.6.3",
     "morgan": "^1.9.1",
     "node-watch": "^0.6.4",
