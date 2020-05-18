@@ -1,8 +1,8 @@
 <template v-slot:one="{ msg }">
   <div class="hero-body">
     <div class="container has-text-centered">
-      <h1 class="title">Notebook and more</h1>
-      <h2 class="subtitle">Pipe your Python code into javascript and visuals</h2>
+      <h1 class="title">Notebook on Steroids</h1>
+      <h2 class="subtitle">Bring your Python code to the web</h2>
       <div class="container">
         <div class="columns">
           <div class="column"></div>
