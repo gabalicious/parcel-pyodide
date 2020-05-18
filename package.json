@@ -33,6 +33,9 @@
     "@vue/component-compiler-utils": "^3.1.2",
     "node-env-run": "^3.0.2",
     "sass": "^1.26.5",
+    "shipit-cli": "^5.3.0",
+    "shipit-deploy": "^5.3.0",
+    "shipit-shared": "^4.4.2",
     "vue-template-compiler": "^2.6.11"
   }
 }
