@@ -12,7 +12,7 @@
     "deploy": "npx shipit production deploy"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "buefy": "^0.8.19",
     "cookie-parser": "^1.4.5",
     "debug": "^2.6.9",
